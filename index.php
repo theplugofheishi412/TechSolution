@@ -233,8 +233,14 @@ include_once 'config/DataBase.php';
                         <select name="service" id="Services"
                             class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
                             required>
+                            <!-- voici les services
+                             
+                                ('web', 'mobile', 'security', 'support', 'Cv','Other')
+                            -->
                             <option value="">Choisissez un service</option>
-                            <option value="Réparation">Réparation</option>
+                            <option value="SiteWeb">SiteWeb</option>
+                            <option value="SiteWeb">ApplicationMobile</option>
+                            <option value="Support">Support</option>
                             <option value="Maintenance">Maintenance</option>
                             <option value="Installation">Installation</option>
                         </select>
